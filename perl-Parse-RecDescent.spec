@@ -1,6 +1,6 @@
 Name:           perl-Parse-RecDescent
 Version:        1.967009
-Release:        4%{?dist}
+Release:        5%{?dist}
 Summary:        Generate Recursive-Descent Parsers
 Group:          Development/Libraries
 License:        (GPL+ or Artistic) and (GPLv2+ or Artistic)
@@ -72,6 +72,9 @@ perl Build.PL installdirs=vendor
 %{_mandir}/man3/Parse::RecDescent.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.967009-5
+- Mass rebuild 2013-12-27
+
 * Thu Nov 01 2012 Petr Pisar <ppisar@redhat.com> - 1.967009-4
 - One demo file is licensed as (GPLv2+ or Artistic)
 
